@@ -1,0 +1,21 @@
+// swift-tools-version: 5.7
+import PackageDescription
+
+let package = Package(
+    name: "CouchbaseLiteVectorSearch",
+    platforms: [
+        .iOS(.v12), .macOS(.v12)
+    ],
+    products: [
+        .library(
+            name: "CouchbaseLiteVectorSearch",
+            targets: ["CouchbaseLiteVectorSearch"])
+    ],
+    targets: [
+        .binaryTarget(
+            name: "CouchbaseLiteVectorSearch",
+            url: "$ZIP_URL",
+            checksum: "$CHECKSUM"
+        )
+    ]
+)
