@@ -26,7 +26,7 @@ pushd "${OUTDIR}" > /dev/null
 echo "VERSION: ${VERSION}"
 if [ -z "$BLD_NUM" ]
 then
-    ZIP_FILENAME="couchbase-lite-vector-search-xcframework-${VERSION}.zip"
+    ZIP_FILENAME="couchbase-lite-vector-search_xcframework_${VERSION}.zip"
     ZIP_URL="https://packages.couchbase.com/releases/couchbase-lite-vector-search/${VERSION}/${ZIP_FILENAME}"
 else
     echo "BUILD_NO: ${BLD_NUM}"
