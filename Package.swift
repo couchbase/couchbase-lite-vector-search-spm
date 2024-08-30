@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CouchbaseLiteVectorSearch",
-            url: "https://packages.couchbase.com/releases/couchbase-lite-vector-search/1.0.0-beta.2/couchbase-lite-vector-search_xcframework_1.0.0-beta.2.zip",
-            checksum: "b8aa089fc60fb9063ee7aa8c57493dd487b4c9a1440f99d06024ba20ff33e6c0"
+            url: "https://packages.couchbase.com/releases/couchbase-lite-vector-search/1.0.0/couchbase-lite-vector-search_xcframework_1.0.0.zip",
+            checksum: "abe1ff93881263d5c1eb9a47ed3b7ce603c795cba148fd3b5b00c24927717cef"
         )
     ]
 ) 
